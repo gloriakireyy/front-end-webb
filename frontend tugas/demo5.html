@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template Literal ES6</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        // Menggunakan Template Literal
+        const nama = "Gloria Kirey Dumaha";
+        const usia = 20;
+        const pekerjaan = "programmer";
+
+        // Memperbaiki penulisan string template literal dengan backticks
+        const profil = `
+            Name: ${nama} <br>
+            Age: ${usia} tahun <br>
+            Expertise/job: ${pekerjaan}
+        `;
+
+        // Menampilkan output ke dalam elemen HTML dengan ID "output"
+        document.getElementById('output').innerHTML = profil;
+    </script>
+</body>
+</html>
